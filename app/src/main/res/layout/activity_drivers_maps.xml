@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DriversMapsActivity">
+
+    <Button
+        android:id="@+id/bt_log_out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background1"
+        android:text="Log Out"
+        android:textColor="#fff"
+        android:textSize="16sp" />
+
+
+    <Button
+        android:id="@+id/increasePassenger"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:background="@drawable/button_background1"
+        android:text="Increase "
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/decreasePassenger"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:background="@drawable/button_background1"
+        android:text="decrease"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/tv_show_nop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="60dp"
+        android:text="0"
+        android:textSize="24sp" />
+
+
+
+
+</FrameLayout>
+
+

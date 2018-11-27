@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "750849183258",
+    "firebase_url": "https://anondoride.firebaseio.com",
+    "project_id": "anondoride",
+    "storage_bucket": "anondoride.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:750849183258:android:8689aaf5e9c8de23",
+        "android_client_info": {
+          "package_name": "com.shofiul.sk.anondoride.anondoride"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "750849183258-mlfnk7jlohpionmk7gut1m3vonimuoid.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shofiul.sk.anondoride.anondoride",
+            "certificate_hash": "15dcdf8c143257e630eb5dac17627f5f8bf69975"
+          }
+        },
+        {
+          "client_id": "750849183258-ecngqplhjv3jf44jemqbe4gcrdl52odv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCD_byPpHCL8xmwSz7nJJPNwOeHDr-ztf0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "750849183258-ecngqplhjv3jf44jemqbe4gcrdl52odv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

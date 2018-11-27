@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">DigitalCityBusService</string>
+    <string name="title_activity_login">Sign in</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="register">Register</string>
+
+
+    <!--FirebaseDatabase-->
+
+    <string name="Users">Users</string>
+    <string name="Drivers">Drivers</string>
+    <string name="Customers">Customers</string>
+    <string name="title_activity_drivers_maps">Map</string>
+    <string name="i_am_passenger">Passenger</string>
+    <string name="i_am_bus_driver">Bus Driver</string>
+    <string name="customer_map">Customer Map</string>
+    <string name="driver_availible">driverAvailible</string>
+    <string name="driver_Found">driverFound</string>
+    <string name="customerTravleId">CustomerTravelId</string>
+    <string name="yourService">Your Service</string>
+    <string name="customerRequest">customerRequest</string>
+    <string name="pickupLocation">Pickup Location</string>
+    <string name="driverWorking">driverWorking</string>
+    <string name="digital_city_bus_service">Digital City Bus Service</string>
+    <string name="availible_passengers">availiblePassengers</string>
+</resources>
